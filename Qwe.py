@@ -1,1 +1,2 @@
-print(6) 
+def f(n):
+    return sum([int(i) for i in str(n)]) 
